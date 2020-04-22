@@ -334,7 +334,7 @@ public class WhileLoop extends javax.swing.JFrame {
         int akhir = Integer.parseInt(txtAkhir.getText());
         
         while(awal <= akhir) {
-            model.addElement("" + awal);
+            model.addElement("Perulangan ke-" + awal);
             awal++;
         }
         txtHasil.setModel(model);
